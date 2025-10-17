@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+    <title>Embedded PDF Example</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first HTML page displayed in a web browser.</p>
-    <p>HTML stands for <strong>HyperText Markup Language</strong>, and it’s used to structure web pages.</p>
+    <h1>View the PDF Below</h1>
+
+    <!-- Embed the PDF -->
+    <embed src="Ranova Sound Voice-to-Vision Program Agreement (5S54M).pdf" type="application/pdf" width="100%" height="600px">
+
+    <!-- Alternative method using iframe -->
+    <!--
+    <iframe src="example.pdf" width="100%" height="600px"></iframe>
+    -->
+
+    <p>If you cannot see the PDF, <a href="example.pdf" target="_blank">click here to download it</a>.</p>
 </body>
 </html>
